@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
+import Image from 'next/image'
 
 type Props = {}
 
@@ -14,8 +15,8 @@ export default function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
-      <img src="https://i.chzbgr.com/full/9676759296/hF261C96A/cat" alt="cat-laying-down" className='relative rounded-full h-32 w-32 object-cover'/>
-
+      {/* <img src="https://i.chzbgr.com/full/9676759296/hF261C96A/cat" alt="cat-laying-down" className='relative rounded-full h-32 w-32 object-cover'/> */}
+      <Image src="/catlayingdown.jpeg" alt="cat-laying-down" className='relative rounded-full object-cover' width='128' height='128'/>
 
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[10px]'>Computer Science @ UCLA</h2>
