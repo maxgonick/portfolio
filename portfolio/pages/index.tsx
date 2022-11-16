@@ -12,11 +12,12 @@ export default function Home() {
         <title>Portfolio</title>
       </Head>
 
-      <Header />
+        <Header />
+
 
       { /* Hero */}
 
-      <section id='hero' className='snap-start'>
+      <section id='hero' className='snap-center'>
       <Hero />
       </section>
 
