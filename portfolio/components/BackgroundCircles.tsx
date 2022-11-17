@@ -22,7 +22,7 @@ export default function BackgroundCircles({}: Props) {
         <div className='border rounded-full border-[#333333] sm:h-[300px] sm:w-[300px] mt-52 absolute'></div>
         <div className='border rounded-full border-[#333333] sm:h-[500px] sm:w-[500px] mt-52 absolute'></div>
         <div className='border rounded-full border-[#4c8ac8] sm:h-[650px] sm:w-[650px] mt-52 absolute animate-pulse opacity-30 '></div>
-        <div className='border rounded-full border-[#333333] xl:h-[800px] xl:w-[800px] mt-52 absolute'></div>
+        <div className='border rounded-full border-[#333333] min-[2000px]:h-[800px] min-[2000px]:w-[800px] mt-52 absolute'></div>
     </motion.div>
   )
 }
