@@ -10,7 +10,7 @@ export default function About({}: Props) {
     <div className='h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center py-20'>
       <h3 className='absolute top-24 text-gray-500 tracking-[10px] text-2xl'>About</h3>
 
-      <motion.div className='invisible sm:visible flex-shrink-0 w-56 h-56 flex'
+      <motion.div className='hidden flex-shrink-0 w-56 h-56 sm:flex'
       initial={{
         x: -200,
         opacity: 0
