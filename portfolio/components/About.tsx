@@ -36,7 +36,7 @@ export default function About({}: Props) {
       </motion.div>
 
       <div className='space-y-10 px-0 md:px-20'>
-        <h4 className='text-2xl md:text-4xl font-semibold '>Sir Hammington's Story</h4>
+        <h4 className='text-2xl md:text-4xl font-semibold '>Sir Hammington&#39;s Story</h4>
         <p className='text-sm'>
       Curabitur fermentum ullamcorper nibh at molestie. Maecenas cursus convallis ipsum, quis maximus sapien varius eget. Quisque mattis neque sed lorem condimentum ullamcorper. Curabitur maximus, eros a finibus vehicula, nunc ante viverra ante, eget feugiat nisi justo quis est. Sed pharetra non arcu non iaculis. Nunc tincidunt elit id sapien condimentum aliquet. Fusce cursus quam nec augue dignissim, sed tempus eros elementum. Nam porta, tellus at euismod pretium, justo felis lacinia nulla, vel auctor mauris urna sed libero. Cras sed nulla lacus. Morbi egestas ante vulputate, malesuada mauris ac, facilisis leo. Sed dignissim a sapien in ullamcorper. Ut auctor turpis ac accumsan elementum. Curabitur ut suscipit lacus. Pellentesque interdum leo nec gravida pretium. Cras vel vulputate sapien. In volutpat sit amet libero sed porta.
         </p>
