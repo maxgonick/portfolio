@@ -46,7 +46,7 @@ export default function About({}: Props) {
           Computer Science at UCLA. I have worked on many projects from larger
           scale projects working with teams over 10+ developers, to personal
           passion projects by myself. I love working with Full-Stack Web
-          Development, messing around with Databases, solving Leetcode
+          Development, messing around with Databases, solving LeetCode
           questions, and learning new technologies for fun. I put an emphasis on
           building maintainable, scalable, and performant applications that are
           simple to navigate, and accomplish the project core values.
